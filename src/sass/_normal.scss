@@ -1,0 +1,146 @@
+@media (min-width: 768px) {
+	.nav {
+		&__logo,
+		&__hamburger,
+		&-mobile__list {
+			display: none;
+		}
+
+		&-desktop {
+			display: flex;
+		}
+	}
+	.header {
+		&__img {
+			height: 65vh;
+			background-image: url(../img/jungle-1807476_1920.jpg);
+		}
+		&__content {
+			h1 {
+				font-size: 3.4rem;
+			}
+			p {
+				font-size: 2.4rem;
+			}
+		}
+	}
+
+	.about-us {
+		&__box {
+			display: flex;
+		}
+		h2 {
+			font-size: 3.4rem;
+		}
+		&__img {
+			margin-left: 1em;
+			img {
+				width: 400px;
+				max-height: 400px;
+			}
+		}
+		&__text {
+			padding: 0 4em;
+			h3 {
+				font-size: 2.2rem;
+			}
+		}
+	}
+	.slogan {
+		background-image: url(../img/girl-5785590_1920.jpg);
+	}
+
+	.offer {
+		h2 {
+			font-size: 3.4rem;
+		}
+		.cards {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+			width: 100%;
+		}
+	}
+	//offer.html
+
+	.offer-list {
+		&__box {
+			margin: 0 2em 10em;
+		}
+		&__img {
+			margin: 0 3em;
+			img {
+				width: 550px;
+			}
+		}
+		&__text {
+			align-self: start;
+			margin-top: 0;
+
+			p {
+				padding: 0 3em;
+			}
+		}
+	}
+	.slogan {
+		&__offer {
+			position: relative;
+			display: flex;
+			align-items: center;
+			background-image: url("../img/forest-1072828_1920.jpg");
+		}
+
+		&__content {
+			margin: 0;
+			flex-direction: row;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		&__info {
+			p {
+		
+				text-align: center;
+			}
+		}
+	}
+	//contact
+
+	.contact {
+		h2 {
+			font-size: 3.4rem;
+		}
+		h3 {
+			font-size: 2rem;
+		}
+		&__content {
+			display: flex;
+			justify-content: space-evenly;
+			width: 100%;
+			flex-direction: row;
+		}
+		&__form {
+			max-width: 40%;
+		}
+		&__map {
+			margin-top: 0;
+			justify-content: start;
+
+			&--element {
+				height: 550px;
+			}
+		}
+		&__popup {
+			width: 70%;
+		}
+
+		&__buttons {
+			flex-direction: row;
+			justify-content: space-between;
+			&--submit,
+			&--clear {
+				width: 150px;
+			}
+		}
+	}
+}

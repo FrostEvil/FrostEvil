@@ -1,0 +1,142 @@
+@media (min-width: 992px) {
+	.header {
+		&__img {
+			height: 55vh;
+		}
+		&__content {
+			text-align: start;
+			padding: 4em;
+			h1 {
+				font-size: 4.2rem;
+			}
+			p {
+				font-size: 2.7rem;
+			}
+		}
+	}
+
+	.about-us {
+		h2 {
+			font-size: 3.6rem;
+		}
+		&__img {
+			img {
+				margin-left: 3em;
+				width: 500px;
+				max-height: 400px;
+			}
+		}
+		&__text {
+			padding: 0 5em;
+			margin-left: 4em;
+			h3 {
+				font-size: 2.4rem;
+			}
+			p {
+				font-size: 1.6rem;
+			}
+		}
+	}
+	.slogan {
+		&__text {
+			p {
+				margin: 0.8em 5em;
+				font-size: 4rem;
+			}
+		}
+	}
+	.offer {
+		h2 {
+			font-size: 3.6rem;
+		}
+		h3 {
+			font-size: 2.4rem;
+		}
+		p {
+			font-size: 2.6rem;
+		}
+		li {
+			font-size: 1.6rem;
+		}
+
+		&__info a {
+			font-size: 2.4rem;
+		}
+	}
+	.footer {
+		&__container {
+			display: flex;
+			justify-content: space-around;
+			flex-direction: row;
+		}
+		&__logo {
+			margin-left: 10em;
+		}
+
+		&__info {
+			margin: 0 2em 2em;
+		}
+	}
+
+	//offer.html
+	.offer-list {
+		h2 {
+			font-size: 3.6rem;
+		}
+		&__box {
+			margin-top: 2em;
+			flex-direction: row;
+			&--right {
+				flex-direction: row-reverse;
+			}
+		}
+		&__img {
+			img {
+				width: 450px;
+			}
+		}
+		&__text {
+			h3 {
+				font-size: 2.4rem;
+			}
+			P {
+				font-size: 1.8rem;
+				line-height: 2em;
+			}
+		}
+	}
+	//contact
+	.contact {
+
+		h2 {
+			font-size: 3.6rem;
+		}
+		&__content {
+			justify-content: space-around;
+		}
+		&__form {
+			max-width: 40%;
+		}
+		&__map {
+			display: flex;
+			margin-top: 0;
+			justify-content: start;
+
+			&--element {
+				height: 550px;
+				width: 550px;
+			}
+		}
+		&__popup {
+			width: 70%;
+		}
+		&__buttons {
+			flex-direction: row;
+			justify-content: space-around;
+			&--submit,
+			&--clear {
+				width: 200px;
+			}
+		}
+	}
+}
